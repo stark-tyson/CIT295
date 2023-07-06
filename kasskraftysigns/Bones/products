@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kass' Krafty Signs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Views/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="prodBody">
+    <header>
+        <div class="banner">
+            <img src="../Images/woodgrain2.jpg" alt="woodgrain">
+            <h1>Kass' Krafty Signs</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="navbar">
+            <li><a href="./home">Home</a></li>
+            <li><a class="active" href="./products">Products</a></li>
+            <li><a href="./classes">Classes</a></li>
+            <li><a href="./orders">Order</a></li>
+            <li><a href="./about">About</a></li>
+        </ul>
+    </nav>
+
+
+    <main class="productsPage">
+
+        <h1>All items custom made!</h1>
+        <br>
+        <h2>Signs</h2>
+        <div class="signGrid">
+            <img src="../Images/hellosign.jpg" alt="Circular hello sign">
+            <img src="../Images/birthdaycal.jpg" alt="Birthday calendar">
+            <img src="../Images/figuresign.jpg" alt="custom sign">
+            <img src="../Images/HPquote.jpg" alt="Harry Potter quote">
+            <img src="../Images/drinksign.jpg" alt="Circular hello sign">
+            <img src="../Images/hellothere.png" alt="Circular hello sign">
+        </div>
+
+        <h2>Tumblers</h2>
+        <div class="tumblerGrid">
+            <img src="../Images/tumbler.png" alt="tumbler">
+            <img src="../Images/tumbler2.png" alt="Circular hello sign">
+            <img src="../Images/tumbler3.png" alt="Circular hello sign">
+            <img src="../Images/tumbler4.png" alt="Circular hello sign">
+            <img src="../Images/tumbler5.png" alt="Circular hello sign">
+            <img src="../Images/tumbler.png" alt="Circular hello sign">
+        </div>
+
+        <h2>Shirts/Sweatshirts</h2>
+        <div class="shirtGrid">
+            <img src="../Images/sweatshirt.png" alt="sweatshirt">
+            <img src="../Images/sweatshirt2.png" alt="Circular hello sign">
+            <img src="../Images/sweatshirt3.png" alt="Circular hello sign">
+            <img src="../Images/baseballtee.png" alt="Circular hello sign">
+            <img src="../Images/witchsweatshirt.png" alt="Circular hello sign">
+            <img src="../Images/hellosign.jpg" alt="Circular hello sign">
+        </div>
+
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/Kasskraftysigns" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/kasskraftysigns/" class="fa fa-instagram"></a>
+    </footer>
+</body>
+
+</html>

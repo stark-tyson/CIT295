@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kass' Krafty Signs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Views/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="homeBody">
+    <header>
+        <div class="banner">
+            <img src="../Images/woodgrain2.jpg" alt="woodgrain">
+            <h1>Kass' Krafty Signs</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="navbar">
+            <li><a class="active" href="./home">Home</a></li>
+            <li><a href="./products">Products</a></li>
+            <li><a href="./classes">Classes</a></li>
+            <li><a href="./orders">Order</a></li>
+            <li><a href="./about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="homepage">
+        <h2>Welcome! I am excited to have you here!</h2>
+        <h3>Here you can find all things handmade and customized just for you!<br>Choose from wood signs, tumblers,
+            shirts, or attend local classes.</h3>
+
+        <div class="newPro">
+            <p>Here are some recent creations:</p>
+            <div class="slideshow">
+                <div class="picNumber">1/4</div>
+                <img src="../Images/sweatshirt.png" alt="Circular hello sign">
+                <div class="picText">Custom shirts/sweatshirts</div>
+            </div>
+
+            <div class="slideshow">
+                <div class="picNumber">2/4</div>
+                <img src="../Images/birthdaycal.jpg" alt="Birthday calendar">
+                <div class="picText">Keep track of birthdays!</div>
+            </div>
+
+            <div class="slideshow">
+                <div class="picNumber">3/4</div>
+                <img src="../Images/hellothere.png" alt="custom sign">
+                <div class="picText">You say it, I'll make it!</div>
+            </div>
+
+            <div class="slideshow">
+                <div class="picNumber">4/4</div>
+                <img src="../Images/HPquote.jpg" alt="Harry Potter quote">
+                <div class="picText">Let me help you geek out!</div>
+            </div>
+
+            <a class="prev" onclick="rotateSlide(-1)">&#10094;</a>
+            <a class="next" onclick="rotateSlide(1)">&#10095;</a>
+        </div>
+
+        <h3>Are you and friends looking to do some crafty things yourselves? <br> Check out the <a href="./classes">classes</a> page for some fun!</h3>
+    </main>
+    <script src="../script/slideshow.js"></script>
+
+    <footer>
+        <a href="https://www.facebook.com/Kasskraftysigns" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/kasskraftysigns/" class="fa fa-instagram"></a>
+    </footer>
+</body>
+
+</html>

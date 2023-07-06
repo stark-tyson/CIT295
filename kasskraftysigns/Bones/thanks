@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kass' Krafty Signs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Views/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="orderBody">
+    <header>
+        <div class="banner">
+            <img src="../Images/woodgrain2.jpg" alt="woodgrain">
+            <h1>Kass' Krafty Signs</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="navbar">
+            <li><a href="./home">Home</a></li>
+            <li><a href="./products">Products</a></li>
+            <li><a href="./classes">Classes</a></li>
+            <li><a class="active" href="./orders">Order</a></li>
+            <li><a href="./about">About</a></li>
+        </ul>
+    </nav>
+    <main class="orderPage">
+        <h1>Thank you for your order.</h1>
+    </main>
+    <footer>
+        <a href="https://www.facebook.com/Kasskraftysigns" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/kasskraftysigns/" class="fa fa-instagram"></a>
+    </footer>
+</body>
+
+</html>

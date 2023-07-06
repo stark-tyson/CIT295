@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kass' Krafty Signs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Views/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="classBody">
+    <header>
+        <div class="banner">
+            <img src="../Images/woodgrain2.jpg" alt="woodgrain">
+            <h1>Kass' Krafty Signs</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="navbar">
+            <li><a href="./home">Home</a></li>
+            <li><a href="./products">Products</a></li>
+            <li><a class="active" href="./classes">Classes</a></li>
+            <li><a href="./orders">Order</a></li>
+            <li><a href="./about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="classPage">
+        <h1>Classes</h1>
+
+        <div class="sectionone">
+            <img src="../Images/stringart.png" alt="string art class">
+            <p>Craft classes are scheduled monthly on one Wednesday or Friday per month.
+                Class designs are usually chosen by the holiday that is coming the next month. </p> <br>
+        </div>
+
+        <div class="sectiontwo">
+            <img src="../Images/stringart2.png" alt="string art class two">
+            <p> I also bring the class to YOU! I can do classes in your own home, you just need at least 6-15 friends
+                ready to come, Average $30 per person
+                paid in full to hold your spot.</p><br>
+        </div>
+
+        <div class="sectionthree">
+            <img src="../Images/gnomes.png" alt="gnomes">
+            <p>Available classes-
+                String Art Classes- $30-40 per person depending on design chosen
+
+                Gnome Classes-$25- per person
+
+                Wood Sign / Vinyl Classes- $30 - $45 per person depending on chosen sign design
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com/Kasskraftysigns" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/kasskraftysigns/" class="fa fa-instagram"></a>
+    </footer>
+
+</body>
+
+</html>

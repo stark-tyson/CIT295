@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kass' Krafty Signs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../Views/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="aboutBody">
+    <header>
+        <div class="banner">
+            <img src="../Images/woodgrain2.jpg" alt="woodgrain">
+            <h1>Kass' Krafty Signs</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul id="navbar">
+            <li><a href="./home">Home</a></li>
+            <li><a href="./products">Products</a></li>
+            <li><a href="./classes">Classes</a></li>
+            <li><a href="./orders">Order</a></li>
+            <li><a class="active" href="./about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="aboutPage">
+
+        <img src="../Images/kassPic.png" alt="Picture of owner" class="ownerPic">
+        <h2>About me:</h2>
+
+        <div class="aboutText">
+
+            <p>A little about me: My name is Kass, and I am currently living in Boise, Idaho with my cute little family
+                of 4.
+                I am a huge dog lover, and have 2 dogs of my own-Pres and Pudge. I love the great outdoors, I love being
+                out on the lake,
+                spending time in my garden, or going on an adventure in the mountains on our Razor.<br><br>
+                I started this small business journey 5 years ago-as a stay at home Mom. I was losing a sense of myself.
+                I needed a creative outlet to give myself some love. I asked my amazing husband to teach me how to use
+                some power tools, and I was set!
+                I started cutting, sanding, staining and painting my own hand painted wood signs!
+                With time and more knowledge, my hobby grew to a small business where friends and family started
+                ordering my work,
+                and then strangers became friends and I was lucky enough to keep my amazing hobby going!<br><br>
+                With time and curiosity in more craft areas, I started custom resin tumblers, sublimation tumblers, as
+                well as vinyl work: stickers,
+                custom vinyl t-shirts, sweatshirts and more!<br><br>
+                Once I felt confident in these areas, I started doing local craft classes.
+                From string art to gnomes, I absolutely loved teaching and sharing my crafting love with those around
+                me.<br><br>
+                If you would like to shop small, and make an order, I would love to chat with you and create something
+                custom and perfect for you.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <a href="https://www.facebook.com/Kasskraftysigns" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/kasskraftysigns/" class="fa fa-instagram"></a>
+    </footer>
+
+</body>
+
+</html>
